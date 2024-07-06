@@ -215,4 +215,35 @@ body {
     color: orange;
     transition: 0.5s;
 }
-
+.footer {
+    margin-top: 40px;
+    position: relative;
+    height: 70px;
+    background-color: orange;
+}
+.wrapper_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.wrapper_footer .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper_footer .link p {
+    padding-right: 10px;
+    color: #ffffff
+}
+.wrapper_footer .link a {
+    text-decoration: none;
+    color: #ffffff
+}
+.wrapper_footer .link a:hover {
+    color: grey;
+    transition: 0.5s;
+}
+.wrapper_footer .logo {
+    width: 100px;
+}
