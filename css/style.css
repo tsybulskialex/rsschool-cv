@@ -247,3 +247,52 @@ body {
 .wrapper_footer .logo {
     width: 100px;
 }
+@media (max-width: 787px) {
+    .my_inform .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+@media (max-width: 568px) {
+    .my_inform .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .contacts .contacts_link li {
+        font-size: 14px;
+    }
+    .contacts .contacts_link {
+        padding-left: 10px;
+    }
+    .description {
+        padding-left: 10px;
+        line-height: 16px;
+        font-size: 14px;
+    }
+    .skills .skills_item {
+        padding-left: 10px;
+    }
+    .skills .skills_item li {
+        font-size: 14px;
+    }
+    .code_example{
+        padding-left: 10px;
+    }
+    .code_example pre{
+        font-size: 11px;
+    }
+    .courses_item {
+        padding-left: 10px;
+    }
+    .courses .courses_item li {
+        font-size: 14px;
+    }
+    .projects_item {
+        padding-left: 10px;
+    }
+    .projects .projects_item li {
+        font-size: 14px;
+    }
+}
