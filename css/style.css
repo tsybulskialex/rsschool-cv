@@ -30,7 +30,6 @@ body {
     color: grey;
     transition: 0.5s;
 }
-
 .my_name {
     margin-top: 50px;
 }
@@ -73,4 +72,56 @@ body {
     width: 100%;
     height: 4px;
     background-color: orange;
+}
+.my_inform {
+    margin-top: 50px;
+}
+.my_inform .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.title_info {
+    margin-bottom: 25px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: grey;
+}
+.contacts .contacts_link {
+    list-style-type: none;
+}
+.contacts .contacts_link li {
+    padding-bottom: 10px;
+}
+.contacts .contacts_link img {
+    padding-right: 10px;
+    transform: translateY(20%);
+}
+.contacts .contacts_link a {
+    text-decoration: none;
+    color: grey;
+    cursor: pointer;
+}
+.contacts .contacts_link a:hover {
+    color: orange;
+    transition: 0.5s;
+}
+.divider_inform {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: grey;
+}
+.description {
+    padding-left: 40px;
+    line-height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    color: grey;
+}
+.about_me .description i:hover {
+    color: orange;
+    transition: 0.5s;
 }
