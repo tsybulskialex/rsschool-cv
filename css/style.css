@@ -1,0 +1,76 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    position: relative;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color: orange;
+}
+.header .menu_items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu_items .menu_item {
+    padding: 0 10px;
+    list-style-type: none;
+}
+.menu_items .menu_item a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.menu_items .menu_item a:hover {
+    color: grey;
+    transition: 0.5s;
+}
+
+.my_name {
+    margin-top: 50px;
+}
+.my_name .who {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.my_name .who .my_photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px orange;
+}
+.my_info .title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.my_info .divider_title {
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    height: 1px;
+    background-color: grey;
+}
+.my_info .subtitle {
+    margin-top: 40px;
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+    text-transform: uppercase;
+}
+.my_name .main_divider {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+    height: 4px;
+    background-color: orange;
+}
