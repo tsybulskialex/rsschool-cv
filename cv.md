@@ -27,12 +27,22 @@ squareSum([1, 2, 2]);
 ```
 ## **EDUCATIONAL PROJECTS**
 [My GitHub account](https://github.com/tsybulskialex) :
-- *[Pulse-project](https://github.com/tsybulskialex/Pulse-project)*
+- *[Pulse-project](https://tsybulskialex.github.io/Pulse-project/dist)*
     - HTML, CSS
-- *[Uber-project](https://github.com/tsybulskialex/Uber-project)*
+- *[Uber-project](https://tsybulskialex.github.io/Uber-project/src)*
     - HTML, CSS, JS
-- *[portfolio_1-project](https://github.com/tsybulskialex/portfolio_1)*
+- *[Portfolio-project](https://tsybulskialex.github.io/portfolio_1/dist)*
     - HTML, CSS, JS
+- *[Shelter](https://tsybulskialex.github.io/shelter/)*
+    - HTML, CSS, JS
+- *[Memory-game](https://tsybulskialex.github.io/random-game/)*
+    - HTML, CSS, JS
+- *[Image-gallery](https://tsybulskialex.github.io/img-gallery/)*
+    - HTML, CSS, JS
+- *[Audio-player](https://tsybulskialex.github.io/audio-player/)*
+    - HTML, CSS, JS
+- *[CssMemeSlider](https://tsybulskialex.github.io/cssMemeSlider/cssMemeSlider)*
+    - HTML, CSS
 ## **EDUCATION**
 ### Courses :
 - stepik.org :
@@ -41,6 +51,8 @@ squareSum([1, 2, 2]);
 - udemy.com :
     - Web-developer
     - Complete course on JavaScript + React - from scratch to results
+- rsschool :
+    - JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)
 ## **ENGLISH LEVEL**
 - Intermediate (B1)
 
