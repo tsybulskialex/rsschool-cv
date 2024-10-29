@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="shortcut icon" href="icons/favicon/favicon-16x16.png" type="image/png">
+    <meta name="title" content="My CV">
+    <meta name="description" content="Information about me">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <ul class="menu_items">
+                        <li class="menu_item"><a href="#contacts">Contacts</a></li>
+                        <li class="menu_item"><a href="#about-me">About me</a></li>
+                        <li class="menu_item"><a href="#skills">Skills</a></li>
+                        <li class="menu_item"><a href="#code">Code</a></li>
+                        <li class="menu_item"><a href="#courses">Courses</a></li>
+                        <li class="menu_item"><a href="#projects">Projects</a></li>
+                        <li class="menu_item"><a href="#education">Education</a></li>
+                        <li class="menu_item"><a href="#english">English</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="my_name">
+            <div class="container">
+                <div class="who">
+                    <img src="images/me.jpg" alt="my-photo" class="my_photo">
+                    <div class="my_info">
+                        <h1 class="title">Aliaksandr Tsybulski</h1>
+                        <div class="divider_title"></div>
+                        <p class="subtitle">Junior Front-end Developer</p>
+                    </div>
+                </div>
+                <div class="main_divider"></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="my_inform">
+            <div class="container">
+                <div class="wrapper">
+                    <div id="contacts" class="contacts">
+                        <h2 class="title_info">contacts</h2>
+                        <ul class="contacts_link">
+                            <li><img src="icons/contacts/marker.png" alt="map"><a href="https://maps.app.goo.gl/sr4fA4xTgD2Jxytx5">Belarus, Hrodna</a></li>
+                            <li><img src="icons/contacts/at.png" alt="email"><a href="mailto:tsybulski.alex@mail.ru">Email: tsybulski.alex@mail.ru</a></li>
+                            <li><img src="icons/contacts/github.png" alt="github"><a href="https://github.com/tsybulskialex">Github: tsybulskialex</a></li>
+                            <li><img src="icons/contacts/telegram.png" alt="telegram"><a href="https://t.me/AliaksandrTsyb">Telegram: @AliaksandrTsyb</a></li>
+                            <li><img src="icons/contacts/discord.png" alt="discord"><a href="https://discord.com/">Discord: alexsandr_24792</a></li>
+                        </ul>
+                    </div>
+                    <div id="about-me" class="about_me">
+                        <h2 class="title_info">About me</h2>
+                        <div class="description">
+                            <p>
+                                My name is Alexander. I am 32. I am from Belarus and live in the city Grodno. I've been studying programming for about a year. I started studying Python and then started studying HTML, CSS and JS. I like to see the result of my work on the computer, so this fascinates me. I am quite diligent and flexible in learning and working on something new.<br><br>
+                                <strong><i>"Hard work is worthless for those that don't believe in themselves"</i></strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="skills" class="skills">
+                        <div class="divider_inform"></div>
+                        <h2 class="title_info">skills</h2>
+                        <ul class="skills_item">
+                            <li><span>Web-development:</span> HTML5, CSS3, JavaScript.</li>
+                            <li><span>Frameworks and libraries:</span> Bootstrap, React(learning).</li>
+                            <li><span>Version control:</span> Git, Github.</li>
+                            <li><span>Graphics:</span> Figma.</li>
+                        </ul>
+                    </div>
+                    <div id="code" class="code">
+                        <div class="divider_inform"></div>
+                        <h2 class="title_info">code</h2>
+                        <div class="code_example">
+                            <pre>function squareSum(numbers){</pre>
+                            <pre>  let counter = 0;</pre>
+                            <pre>  numbers.forEach(num => {</pre>
+                            <pre>    counter = counter + Math.pow(num, 2);</pre>
+                            <pre>  })</pre>
+                            <pre>  return counter;</pre>
+                            <pre>}</pre>
+                            <pre>squareSum([1, 2, 2]);</pre>
+                        </div>
+                    </div>
+                    <div id="courses" class="courses">
+                        <div class="divider_inform"></div>
+                        <h2 class="title_info">courses</h2>
+                        <ul class="courses_item">
+                            <li><span>Stepic:</span> "Python Generation": course for beginners.</li>
+                            <li><span>Stepic:</span> Web development for beginners: HMTL and CSS.</li>
+                            <li><span>Udemy:</span> Web-developer.</li>
+                            <li><span>Udemy:</span> Complete course on JavaScript + React - from scratch to results. - 50%</li>
+                            <li><span>RsSchool:</span> JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)</li>
+                        </ul>
+                    </div>
+                    <div id="projects" class="projects">
+                        <div class="divider_inform"></div>
+                        <h2 class="title_info">projects</h2>
+                        <ul class="projects_item">
+                            <li><a href="https://tsybulskialex.github.io/Pulse-project/dist">Pulse-project</a></li>
+                            <li><a href="https://tsybulskialex.github.io/Uber-project/src">Uber-project</a></li>
+                            <li><a href="https://tsybulskialex.github.io/portfolio_1/dist">Portfolio_example</a></li>
+                            <li><a href="https://tsybulskialex.github.io/shelter/">Shelter</a></li>
+                            <li><a href="https://tsybulskialex.github.io/random-game/">Memory-game</a></li>
+                            <li><a href="https://tsybulskialex.github.io/img-gallery/">Image-gallery</a></li>
+                            <li><a href="https://tsybulskialex.github.io/audio-player/">Audio-player</a></li>
+                            <li><a href="https://tsybulskialex.github.io/cssMemeSlider/cssMemeSlider">CssMemeSlider</a></li>
+                        </ul>
+                    </div>
+                    <div id="education" class="education">
+                        <div class="divider_inform"></div>
+                        <h2 class="title_info">education</h2>
+                        <div class="description">
+                            <p>
+                                I've been learning programming for about a year. Self-study and courses.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="english" class="english">
+                        <div class="divider_inform"></div>
+                        <h2 class="title_info">english</h2>
+                        <div class="description">
+                            <p>
+                                B1 - Pre-Intermediate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper_footer">
+                <div class="link">
+                    <p>2024</p>
+                    <a href="https://github.com/tsybulskialex">tsybulskialex</a>
+                </div>
+                <a href="https://rs.school/courses/javascript-ru"><img src="icons/logo/logo_rs_school.svg" alt="logo_rs_school" class="logo"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
