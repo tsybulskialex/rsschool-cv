@@ -50,7 +50,7 @@ squareSum([1, 2, 2]);
     - Web development for beginners: HMTL and CSS
 - udemy.com :
     - Web-developer
-    - Complete course on JavaScript + React - from scratch to results
+    - Complete course on JavaScript + React - from scratch to results - 50%
 - rsschool :
     - JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)
 ## **ENGLISH LEVEL**
